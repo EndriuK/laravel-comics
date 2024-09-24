@@ -15,8 +15,8 @@
                 <div class="col-12 d-flex py-5 ">
                     <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
                     <ul class="list-unstyled d-flex">
-                        <li class="px-2 mt-2"><a class="text-decoration-none text-dark" href="{{ route('homepage') }}">Home</a></li>
-                        <li class="px-2 mt-2"><a class="text-decoration-none text-dark">Characters</a></li>
+                        {{-- <li class="px-2 mt-2"><a class="text-decoration-none text-dark" href="{{ route('homepage') }}">Home</a></li> --}}
+                        <li class="px-2 mt-2"><a class="text-decoration-none text-dark" href="{{ route('characters') }}">Characters</a></li>
                         <li class="px-2 mt-2"><a class="text-decoration-none text-dark">Comics</a></li>
                         <li class="px-2 mt-2"><a class="text-decoration-none text-dark">Movie</a></li>
                         <li class="px-2 mt-2"><a class="text-decoration-none text-dark">TV</a></li>
