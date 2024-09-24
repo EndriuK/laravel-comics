@@ -18,6 +18,10 @@ Route::get('/', function () {
 })->name('characters');
 
 Route::get('/comics', function () {
+    $provaComics = config('db.comics');
+
+    dd($provaComics);
+
     return view('comics');
 })->name('comics');
 
